@@ -1,0 +1,46 @@
+html 
+{
+    box-sizing: border-box;
+}
+
+* 
+{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes stretching 
+{
+    0% 
+    {
+        width: 100px;
+        background-color: red;
+    }
+
+    100% 
+    {
+        width: 100%;
+        background-color: pink;
+    }
+}
+
+@keyframes change-color
+{
+    0%
+    {
+        background-color: red;
+    }
+
+    100%
+    {
+        background-color: blue;
+    }
+}
+
+.button
+{
+    display: inline-block;
+    background-color: bisque;
+    animation: 10s infinite stretching;  
+}
