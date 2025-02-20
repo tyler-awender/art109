@@ -1,63 +1,98 @@
 /*
 CSS RESETS:
- Border box reset:
+Border box reset:
 https://www.paulirish.com/2012/box-sizing-border-box-ftw/
- 62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
+62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
 */
 
 
 html
 {
-    box-sizing: border-box;
-    font-size: 62.5%;
- }
- 
- 
- *,
- *:before,
- *:after 
- {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
- }
- 
- 
- html,
- body
- {
-    height: 100%;
- }
- 
- 
- body 
- {
-     font-size: 1.6rem;
-    /* font-size 1.6rem is now the same as 16px */
-    line-height: 1.6;
- }
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
 
- /* Styling */
- header
- {
-    padding: 50px;
-    background-color: rgb(64, 87, 158);
-    text-align: center;
- }
 
- main
- {
-    max-width: 800px;
-    margin: 50px auto;
- }
+*,
+*:before,
+*:after 
+{
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
 
- p
- {
-    margin-top: 20px;
- }
 
- .image-div
- {
-    display: inline-block;
- }
+html,
+body
+{
+   height: 100%;
+   
+}
+
+
+body 
+{
+   font-size: 1.6rem;
+   /* font-size 1.6rem is now the same as 16px */
+   line-height: 1.6;
+   background-color: black;
+}
+
+/* Styling */
+header
+{
+   padding: 50px;
+   background-color: rgb(64, 87, 158);
+   text-align: center;
+}
+
+main
+{
+   max-width: 800px;
+   margin: 50px auto;
+}
+
+p
+{
+   margin-top: 20px;
+}
+
+.image-div
+{
+   display: inline-block;
+   position: absolute;
+}
+
+#image-0
+{
+   top: 20px;
+}
+#image-1
+{
+   top: 50px;
+}
+#image-2
+{
+   top: 50px;
+   left: 890px;
+}
+#image-3
+{
+   top: 90px;
+}
+#image-4
+{
+   top: 50px;
+   left: 200px;
+}
+#image-5
+{
+   top: 50px;
+}
+
+img
+{
+max-width: 700px;
+}
  
