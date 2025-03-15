@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width,
+                   initial-scale=1.0">
+    <link rel="stylesheet" href="./css/nav.css">
+    <title>Responsive Navbar</title>
+    <meta name="keywords" content="Tyler Awender, Software Engineer, Digital Artist, Web Development">
+    <meta name="Description" content="Tyler Awender is a software engineer in student working in web development and
+    cloud computing">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">MyLogo</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
