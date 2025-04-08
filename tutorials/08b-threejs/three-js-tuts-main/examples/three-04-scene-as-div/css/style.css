@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
+
+}
+
+#scene-container{
+    background-color: black;
+    width: 60vw;
+    height: 400px;
+    margin: 0 auto;
+}
+

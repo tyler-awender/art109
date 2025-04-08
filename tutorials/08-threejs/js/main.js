@@ -38,6 +38,7 @@ loader.load(
     
         dog.position.set(0, 0, 0);
         dog.scale.set(5, 5, 5);
+
     }
 
   );
