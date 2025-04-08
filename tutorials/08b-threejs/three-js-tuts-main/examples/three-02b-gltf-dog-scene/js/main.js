@@ -117,13 +117,13 @@ function animate() {
     // Date.now() returns the date in milliseconds. It constantly increases and creates an infinite sin wave
     // Play with the values: Math.sin(Date.now() / [increase # to slow]) * [increase # to amplify])
 
-    ball.position.x = Math.sin(Date.now() / 5000) * 2;
-    ball.position.y = Math.sin(Date.now() / 3000) * 2;
-    ball.position.z = Math.sin(Date.now() / 4000) * 2;
+    ball.position.x = Math.sin(Date.now() / 300) * 5;
+    ball.position.y = Math.sin(Date.now() / 100) * 2;
+    ball.position.z = Math.sin(Date.now() / 300) * 2;
 
     if (dog) { // check to see if model loaded first
         // dog.rotation.y += 0.007; // 360 rotation
-        dog.rotation.y = Math.sin(Date.now() / 2000) * 1.2; // sin rotation
+        dog.rotation.y = Math.sin(Date.now() / 100) * 1.2; // sin rotation
     }
 
     // always end animation loop with renderer
